@@ -154,6 +154,7 @@ main {
     display: flex;
     justify-content: space-around;
     margin-top: 40px;
+    gap: 20px;
 }
 
 .feedback-card{
@@ -162,29 +163,45 @@ main {
     color: #1E1E1E;
     background-color: #FFFFFF80;
     border-radius: 10px;
-    padding: 20px;
+    padding: 25px;
 }
 
 .card-title{
     font-size: 24px;
     font-weight: 600px;
+    margin-bottom: 0;
 }
 
 .card-text{
     font-size: 16px;
     font-weight: 400px;
+    margin-bottom: 30px;
+    line-height: 25px;
 }
 
 .feedback-reviewer{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 20px;
 }
 
 .feedback-reviewer > img{
-    width: 15%;
-    height: 15%;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
+}
+
+.reviewer-name{
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0 0 0;
+}
+
+.reviewer-date{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
 }
 
 /*Button styles here  */
