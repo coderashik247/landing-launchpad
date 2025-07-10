@@ -252,6 +252,52 @@ textarea {
     margin-bottom: 5px;
 }
 
+footer {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer h2 {
+    color: #4E47FF;
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 800;
+    margin: 0;
+}
+
+footer>p {
+    width: 65%;
+    margin: 0 auto;
+    color: #8987A1;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 30px;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+footer>ul {
+    display: flex;
+}
+
+footer>ul>li {
+    list-style: none;
+    padding-right: 15px;
+
+}
+
+footer>ul>li>a {
+    text-decoration: none;
+    color: #8987A1;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 
 /*Button styles here  */
 
