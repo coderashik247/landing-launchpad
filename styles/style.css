@@ -102,29 +102,31 @@ main {
     margin: 0 auto;
     background-color: #4E47FF1A;
     border-radius: 20px;
-} 
+}
 
-.user-section-title{
+.user-section-title {
     font-family: Raleway;
     font-size: 40px;
     font-weight: 700px;
     text-align: center;
     color: #252432;
     padding-top: 40px;
-} 
-.user-active-section{
+}
+
+.user-active-section {
     display: flex;
     justify-content: space-around;
 }
-.user-active-section > div > h2{
+
+.user-active-section>div>h2 {
     font-size: 80px;
     font-family: Inter;
     font-weight: 800;
     color: #4E47FF;
-    margin: 25px 0 0 0 ;
-} 
+    margin: 25px 0 0 0;
+}
 
-.user-active-section > div > p{
+.user-active-section>div>p {
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
@@ -133,7 +135,57 @@ main {
     color: #00000080;
 }
 
-/*  */
+/* Feedback Section style here */
+.feedback-section {
+    width: 80%;
+    margin: 0 auto;
+    padding: 120px 0;
+}
+
+.feedback-section-title {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700px;
+    text-align: center;
+    color: #252432;
+}
+
+.feedback-card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.feedback-card{
+    /* border: 1px solid red; */
+    font-family: Inter;
+    color: #1E1E1E;
+    background-color: #FFFFFF80;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-title{
+    font-size: 24px;
+    font-weight: 600px;
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.feedback-reviewer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.feedback-reviewer > img{
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
+}
 
 /*Button styles here  */
 
