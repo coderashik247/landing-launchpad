@@ -11,6 +11,7 @@ nav {
     font-family: Inter;
     width: 80%;
     margin: 0 auto;
+    padding: 0 2px;
 }
 
 .logo {
@@ -42,13 +43,97 @@ nav {
     margin-top: 160px;
     line-height: 85px;
 }
-span{
+
+span {
     margin-left: 100px;
 }
-.stay-focused-btn{
+
+.stay-focused-btn {
     margin-bottom: 170px;
-    
+
 }
+
+main {
+    background-color: #F5F8FF;
+}
+
+/* Action Section Style here */
+.action-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0;
+}
+
+.action-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.action-section-text>h2 {
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+    margin-bottom: 0;
+}
+
+.action-section-text>p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #25243280;
+    font-family: Raleway;
+    line-height: 33px;
+}
+
+.live-preview-btn {
+    width: 50%;
+}
+
+.action-section-image>img {
+    border-radius: 30px;
+}
+
+/* User Section start here */
+.user-section {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #4E47FF1A;
+    border-radius: 20px;
+} 
+
+.user-section-title{
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700px;
+    text-align: center;
+    color: #252432;
+    padding-top: 40px;
+} 
+.user-active-section{
+    display: flex;
+    justify-content: space-around;
+}
+.user-active-section > div > h2{
+    font-size: 80px;
+    font-family: Inter;
+    font-weight: 800;
+    color: #4E47FF;
+    margin: 25px 0 0 0 ;
+} 
+
+.user-active-section > div > p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 50px 0;
+    color: #00000080;
+}
+
+/*Button styles here  */
 
 .btn {
     border: none;
