@@ -315,4 +315,5 @@ footer>ul>li>a {
 .btn:hover {
     color: #4E47FF;
     background-color: #c4bdbd;
+    cursor: pointer;
 }
